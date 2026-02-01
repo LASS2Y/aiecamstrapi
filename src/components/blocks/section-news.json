@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_section_news",
+  "info": {
+    "displayName": "Section-News"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  },
+  "config": {}
+}

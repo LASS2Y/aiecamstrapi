@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "evenements",
+  "info": {
+    "singularName": "evenement",
+    "pluralName": "evenements",
+    "displayName": "Evenement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Event_Name": {
+      "type": "string"
+    },
+    "Date_hour": {
+      "type": "datetime"
+    },
+    "Place": {
+      "type": "string"
+    },
+    "Poster": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Additional_info": {
+      "type": "blocks"
+    }
+  }
+}

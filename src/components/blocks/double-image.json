@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_double_images",
+  "info": {
+    "displayName": "Double-Image"
+  },
+  "options": {},
+  "attributes": {
+    "Left_Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Right_Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_section_events",
+  "info": {
+    "displayName": "Section-Events"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "evenements": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::evenement.evenement"
+    }
+  },
+  "config": {}
+}
